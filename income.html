@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Income </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <style>
+        * {
+            font-family: 'Railway', sans-serif;
+        }
+
+        body {
+            background: #E9ECEF;
+        }
+
+
+
+        .navbar {
+            background-color: white;
+            border-radius: 1px;
+            /* width: auto; */
+            margin-right: 65px;
+            margin-left: 32px;
+            /* margin-bottom: 0px; */
+            padding-bottom: 0px;
+            padding-top: 10px;
+            height: 0cm;
+            margin-top: -30px;
+            border: 0px;
+            margin-bottom: 0px;
+            font-size: 17px;
+            padding-right: 2px;
+            padding-left: 53px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            /* font-style: bold; */
+            margin: 1px 10px;
+
+
+        }
+
+        .navbar li a {
+            padding-right: 93px;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+
+        }
+
+        .navbar li a:hover {
+            background-color: rgb(173, 167, 167);
+            color: rgb(0, 0, 0);
+            /* margin: 20px; */
+
+        }
+
+
+        #log {
+
+
+            padding-left: 20px;
+
+        }
+
+        #logg {
+
+            /* color: blue;
+            padding-left: 1200px;
+            padding: ; */
+            /* padding-top: 3px; */
+            font-size: 20px;
+            padding: 500px;
+            /* margin: 0px; */
+        }
+
+        .glyphicon {
+
+            font-size: 20px;
+            padding-left: 1035px;
+            padding-top: 0px;
+            margin-bottom: 0px;
+            top: -27px;
+
+
+        }
+
+        .search {
+
+            border-color: aliceblue;
+            border-width: 0px;
+            margin-top: 0px;
+            padding-left: 30px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-left: 0px;
+            padding-right: 0px;
+            /* paddingpx; */
+        }
+
+        .imgg {
+            padding: 0px;
+            margin-right: 3px;
+            margin-left: 36px;
+            margin-top: 17px;
+        }
+
+        .find {
+            border-width: 0px;
+            padding-top: 2px;
+        }
+
+        .income1 {
+
+            padding: 24px;
+
+            margin: 11px;
+            border-radius: 8px;
+            font-size: 20px;
+        }
+
+
+
+        .button {
+
+            padding: 0px;
+            margin: 0px;
+        }
+
+        #amt2 {
+
+            padding: 20px;
+            border-radius: 10px;
+            /* border-color: #e3e3e3; */
+            border-width: 1px 2px 2px 2px;
+            border-top-color: #d1d1d1;
+            /* border-block-color: inherit; */
+            /* border-top-width: thin; */
+            /* border-width: thin; */
+            /* border-bottom-width: thin; */
+            border-bottom-color: #252525;
+            border-left-color: #d1d1d1;
+            border-right-color: #d1d1d1;
+            width: 1120px;
+            border-style: outset;
+            border: #d1d1d1;
+            /* padding: 20px;
+            border-radius: 10px;
+
+            border-width: 1px 2px 2px 2px;
+            border-top-color: #d1d1d1;
+            border-bottom-color: #252525;
+            border-left-color: #d1d1d1;
+            border-right-color: #d1d1d1;
+            width: 1119px;
+            border-block-start-width: 2px;
+            border-block-start-color: initial;
+            border-block-end-color: revert;
+            border-right-style: outset; */
+        }
+
+        .button1 {
+            padding: 8px 66px;
+            margin-left: 34px;
+            margin-right: 142px px;
+            color: #f4fff4;
+            background-color: rgb(6, 204, 6);
+            border-width: none;
+            border-width: 0px;
+            border-radius: 5px;
+            /* font-palette: normal; */
+            font-size: 20px;
+        }
+
+        .button2 {
+            padding: 8px 66px;
+            margin-left: 307px;
+            margin-right: 142px px;
+            color: #f4fff4;
+            background-color: rgb(6, 204, 6);
+            border-width: none;
+            border-width: 0px;
+            border-radius: 5px;
+            /* font-palette: normal; */
+            font-size: 20px;
+        }
+
+        .button3 {
+            padding: 8px 66px;
+            margin-left: 335px;
+            margin-right: 142px px;
+            color: #f4fff4;
+            background-color: rgb(6, 204, 6);
+            border-width: none;
+            border-width: 0px;
+            border-radius: 5px;
+            /* font-palette: normal; */
+            font-size: 20px;
+        }
+
+        #amt {
+            margin: -3px;
+            /* padding: 0px; */
+            padding: 7px;
+            border-radius: 6px;
+            border: none;
+            padding-left: 16px;
+            font-size: 20px;
+            margin-left: 2px;
+        }
+
+        #amt1 {
+            margin: -3px;
+            /* padding: 0px; */
+            padding: 7px;
+            border-radius: 6px;
+            border: none;
+            padding-left: 16px;
+            font-size: 20px;
+            margin-left: 23px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <header>
+        <div class="search">
+
+            <img class="imgg" src="logo.jpg" height="130cm" width="130cm">
+
+            <i class="glyphicon glyphicon-user"><a href="login.html">Logout</a></i>
+
+
+
+
+            <i class="glyphicon glyphicon-search">&nbsp;<input class="find" type="text" placeholder="Search Here"> </i>
+
+        </div>
+
+        <br>
+        <nav class="navbar">
+            <ul>
+                <li><a href="homepage.html"><b><img src="icons8-home-24.png" height="20cm" width="20cm"></b></a></li>
+                <li><a href="income.html"><b>Income</b></a></li>
+                <li><a href="expanse.html"><b>Expense</b></a></li>
+                <li><a href="account.html"><b>Account balance</b></a></li>
+                <!-- <li><a href="#"><b>History</b></a></li> -->
+                <li><a href="service.html"><b>Customer Service </b></a></li>
+                <li><img src="icons8-customer-16.png" height="20cm" width="20cm"></li>
+
+
+
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <form action="#">
+        <div class="income1">
+
+
+            Amount* : <input type="number" name="Amount" placeholder="Enter ammount" id="amt">
+
+        </div>
+
+        <div class="income1">
+            Date* : <input type="date" placeholder="DD/MM/YY" id="amt1">
+        </div>
+
+        <div class="income1">
+            Reason : <input type="text" placeholder="From where you recieved or why you want to update/delete" id="amt2"
+                width="90">
+        </div>
+
+        <div class="button">
+
+            <input class="button1" type="submit" value="Add">
+            <input class="button2" type="submit" value="Delete">
+            <input class="button3" type="submit" value="Update">
+        </div>
+
+    </form>
+
+
+
+
+</body>
+
+</html>

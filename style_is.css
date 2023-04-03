@@ -1,0 +1,100 @@
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap'); */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Railway', sans-serif;
+}
+body{
+  min-height: 10vh;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  justify-content: center;
+  background:  #E9ECEF;
+  box-sizing: 40px;
+}
+.wrapper{
+  position: relative;
+  height: 100%;
+  max-width: 470px;
+  max-height: 100%;
+  width: 100%;
+  background: #fff;
+  padding: 43px;
+  margin: 9px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  box-sizing: 3px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.wrapper h2{
+  font-size: 28px;
+  position: relative;
+  padding-bottom: -20px;
+  font-size: 25px;
+  font-weight: 500;
+  color: #333;
+}
+
+.wrapper form{
+  margin-top: 5px;
+}
+.wrapper form .input-box{
+  height: 46px;
+  margin-bottom: 5px;  
+  margin: 20px 0;
+  /* box-shadow: rgb(83, 2, 2); */
+}
+form .input-box input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #C7BEBE;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  
+}
+
+.wrapper .row{
+  display: flex;
+  /* align-content: center; */
+  flex-direction: row;
+  /* border-block-start-width: 66px; */
+  max-width: 470px;
+  height: 65px;
+  margin-left: 0%; 
+  margin-right: 0px;
+  block-size: 65px;
+  box-sizing: border-box;
+}
+
+.input-box input:focus,
+.input-box input:valid{
+  border-color: #6d6d6e;
+}
+
+
+.btn{
+  font-size: 22px;
+  color: #fff;
+  letter-spacing: 1px;
+  border: none;
+  background:  rgb(6, 204, 6);
+  width: 410px;
+  cursor: pointer;
+  height: 50px;
+  border-radius: 6px;
+  
+}
+.btn:hover{
+  background: #03911b;
+}
+

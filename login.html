@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration or Sign Up form in HTML CSS </title>
+    <link rel="stylesheet" href="login_style.css">
+
+    <style>
+        .btn2 {
+            font-family: 'Railway', sans-serif;
+            font-size: 23px;
+            background-color: rgb(6, 36, 204);
+            border: none;
+            color: white;
+            padding: 10px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+
+            width: 394px;
+            margin: 0px -1px;
+            cursor: pointer;
+            border-radius: 4px;
+            letter-spacing: 1px;
+            padding-left: 26px;
+        }
+
+        .btn2:hover {
+
+            background: #021d68;
+        }
+
+        .btn {
+            background-color: rgb(6, 204, 6);
+            border: none;
+            color: white;
+            padding: 15px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            width: 200px;
+            margin: 4px 93px;
+            cursor: pointer;
+            border-radius: 5px;
+
+        }
+
+
+        .buttonlayer {
+            text-align: center;
+            padding: 2px;
+            margin: 128.5px;
+            text-decoration: none;
+            color: rgb(13, 13, 165);
+        }
+
+        .buttonlayer:hover {
+            color: red;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="txt">
+
+        <h1><b>Expense Tracker</b></h1>
+        <br>
+        <p>
+            Creative financial solution <br> for your brighter future</br>
+
+        </p>
+    </div>
+
+    <div class="wrapper">
+        <form action="#" method="">
+            <div class="input-box">
+                <input type="text" placeholder="Email" required>
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="Password" required>
+            </div>
+            <div class="input-box button">
+                <!-- <input type="Submit" value="Log In" name="login" src="homepage.html"> -->
+                <!-- <a href="homepage.html" type="Submit" class="sub">Login</a> -->
+                <button class="btn2" type="submit" onclick="window.location.href='homepage.html';">Log in</button>
+
+            </div>
+            <div class="text">
+                <!-- <h3>Forgot Password ?</h3> -->
+                <a href="#" class="buttonlayer">Forgot password?</a>
+            </div>
+            <br>
+            <hr>
+            <div class="input-box button">
+                <a href="signup.html" class="btn">Create
+                    Account</a>
+                <!-- <form action="http://127.0.0.1:5500/signup.html">
+
+
+                    <button type="submit">Create Account</button>
+                </form> -->
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

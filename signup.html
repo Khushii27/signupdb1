@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration or Sign Up form in HTML CSS</title>
+    <link rel="stylesheet" href="style_is.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2>Sign Up</h2>
+        <br>
+        <hr>
+        <form action="signup.php" method="post">
+            <!-- <div class="input-box">
+                <input type="text" name="firstname" id="firstname" class="from-control" placeholder="First name">
+            </div>
+            <div class="input-box">
+                <input type="text" name="lastname" id="lastname" class="form-control" placeholder="last name"> -->
+
+            <div class="row">
+                <div class="input-box">
+                    <input type="text" name="firstname" id="firstname" class="from-control" placeholder="First name">
+                </div>
+                <div class="input-box">
+                    <input type="text" name="lastname" id="lastname" class="form-control" placeholder="last name">
+                </div>
+            </div>
+            <div class="input-box">
+                <input type="number" name="phone" id="phone" placeholder="Mobile Number - 10 digits">
+            </div>
+            <div class="input-box">
+                <input type="password" name="passward" id="passward" placeholder="Password">
+            </div>
+            <div class="input-box">
+                <input type="text" name="email" id="email" placeholder="Email id">
+            </div>
+            <div class="input-box">
+                <input type="text" name="addressone" id="addressone" placeholder="Address Line 1">
+            </div>
+            <div class="input-box">
+                <input type="text" name="addresstwo" id="addresstwo" placeholder="Address Line 2">
+            </div>
+
+            <!-- <div class="input-box button">
+                <input type="Submit" value="Sign Up">
+            </div> -->
+            <button class="btn" type="submit" onclick="window.location.href='login.html';">Sign Up</button>
+
+
+        </form>
+    </div>
+
+    <script>
+
+// INSERT INTO `signup` (`firstname`, `lastname`, `phone`, `passward`, `email`, `addressone`, `addresstwo`, `dt`) VALUES ('Khushi', 'Surani', '6767676767', 'khjhk@73', 'skhdksh@gmail.com', 'sadgurunagar, kalawad road rajkot', 'block no. 33/3', current_timestamp());
+    </script>
+</body>
+
+</html>
